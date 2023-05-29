@@ -2,7 +2,7 @@
 	msg_main_print1: 
 	.string "Enter two numbers : \n"
  	msg_main_scan: 
-	.string "%d %d\n"
+	.string "%d %d"
  	msg_main_print2: 
 	.string "Answer is %d\n"
 
