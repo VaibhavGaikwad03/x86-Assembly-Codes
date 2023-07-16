@@ -1,2 +1,4 @@
-64bit linux:
-compile : as filename.s -o
+64 bit linux:
+compile : as filename.s --32 -o filename.o
+link : ld filename.o -m elf_i386 -lc -dynamic-linker /lib/ld-linux.so.2 -e main -o filename(exe)
+to install 32 bit lib : sudo apt-get install gcc-multilib
